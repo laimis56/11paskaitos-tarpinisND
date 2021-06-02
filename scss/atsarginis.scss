@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "header.scss";
+
+
+// header{
+//  position: fixed;
+//
+//   padding:15px 0px;
+//   height: 50px;
+//   width:95%;
+//   background-color:#eeeeee;
+//   margin: -3px;
+//   height: 40px;
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//
+//   button{
+//
+//     width: 75px;
+//     height: 35px;
+//     text-decoration: none;
+//     background-color:#5e9bff;
+//     color: white;
+//     border-radius: 3px;
+//     border: none;
+//   }
+// li{
+//   list-style-type: none;
+// }
+//
+//
+// }
+//
+// h1{
+//   font-weight:bolder;
+//   display: flex;
+//   flex-direction: row;
+//   color: white;
+//   justify-content: space-around;
+// }
+// h2{
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 10px;
+// }
+//
+// .signup {
+//
+//   .button{
+//     display: flex;
+//     margin-left: 16px;
+//
+//     justify-content: center;
+//     align-items: center;
+//     color: white;
+//     font-size: 18px;
+//     font-weight: bolder;
+//     border-radius: 5px;
+//     border:none ;
+//     width: 125px;
+//     height: 40px;
+//     background-color:#5e9bff;
+//   }
+//
+//   height: 60vh;
+//   width: 100%;
+//   background-position: center;
+//
+//    background-image: url(/app/img/img1.jpg);
+//    background-repeat: no-repeat;
+//    display: flex;
+//    flex-direction:column;
+//    align-items: center;
+//
+//   justify-content:center;
+//   }
+//
+// .up{
+//
+// input{
+//   display: flex;
+//   height: 40px;
+//   width: 370px;
+// }
+//   height: 40px;
+//   width: 100%;
+//   justify-content:center;
+//   margin-top: 20px;
+//
+//   display: flex;
+//   flex-direction: row;
+// }
+// body{
+//     font-family: 'Lato', sans-serif;
+// margin: 0 50px;
+// font-size: 19px;
+// display: flex;
+// flex-direction:column;
+// border: 1px solid grey;
+// }
+//
+//
+//
+//
+// .icons{
+//   .fas{
+//     margin-bottom: 10px;
+//     display:flex;
+//     justify-content: center;
+//
+//     font-size: 60px;
+//     color:#5e9bff;
+//   }
+//   .far{
+//       margin-bottom: 10px;
+//     display: flex;
+//     justify-content:center;
+//
+//     color: #5e9bff;
+//     font-size: 60px;
+//   }
+//
+//   display: flex;
+//   flex-direction:row;
+//
+//   justify-content: space-around;
+//   margin: 10px 10px;
+//   padding: 100px;
+// }
+// HEADERIS IR ICONOS PABAIGA//
+
+//3 eilutes su foto (phone,code,kid) pradzia
+.showcase{
+
+
+
+}
+
+
+
+.rowone{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content:space-between;
+
+}
+.fullyimg{
+
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+
+.rowtwo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.rowthree{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.txt{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 10px 30px;
+
+}
+//3 eiluciu pabaiga//
+
+
+
+
+//What people are saying pradzia//
+.talking{
+
+  padding: 50px 0px;
+  margin-top: 100px;
+}
+
+.person{
+
+display: flex;
+justify-content:space-between;
+flex-direction:column;
+flex-wrap:wrap;
+align-items:center;
+
+
+
+}
+
+
+.test1{
+
+
+  border-radius: 50%;
+  width: 50%;
+}
+.test2{
+  border-radius: 50%;
+  width: 50%;
+}
+.test3{
+  border-radius: 50%;
+  width: 50%;
+}
+
+.people{
+
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+
+}
+.Marimg{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.Freimg{
+    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.Serimg{
+    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  margin-bottom: 20px;
+}
+//What people are saying pabaiga//
+
+//bottomsignup pradzia//
+.bottomsignup{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+
+
+  background-image:url(/app/img/img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  height: 300px;
+}
+.bottombutton{
+  display: flex;
+  margin-left: 16px;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border:none ;
+  width: 125px;
+  height: 40px;
+  background-color:#5e9bff;
+
+}
+.bottomup{
+  display: flex;
+  input{
+    display: flex;
+    height: 40px;
+    width: 370px;
+  }
+}
+//bottomsignup pabaiga//
+
+
+//footer iconos pradzia//
+
+
+.Rights{
+
+
+  background: #F8F8F8;
+  padding: 3% 10%;
+  color:black;
+
+
+  nav{
+    display:flex;
+    justify-content: space-between;
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    p:not(:last-of-type)::after{
+      content:"·";
+      padding: 0 10px;
+}
+
+}
+}
+}
+
+.social {
+  font-size: 25px;
+  i{
+    color:#5e9bff;
+    margin: 0  5px;
+  }
+}
+
+.copyright {
+  margin-top: 5px;
+  color: #585858;
+  font-size: 10px;
+}
+@media(max-width:620px){
+  .Rights {
+    nav{
+      flex-direction: column;
+      align-items: center;
+      .social{
+        padding: 20px 0;
+      }
+    }
+  }
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+}

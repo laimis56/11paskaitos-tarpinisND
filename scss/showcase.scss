@@ -1,0 +1,45 @@
+.showcase{
+
+
+
+}
+
+
+
+.rowone{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content:space-between;
+
+}
+.fullyimg{
+
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+
+.rowtwo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.rowthree{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.txt{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 10px 30px;
+
+}
